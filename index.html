@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+ <style>
+h1 {text-align: center;}
+body {background-color: powderblue;}
+h1   {color: c61f0c;}
+p    {color: yellow;
+font-family:  Verdana;
+  font-size: 200%;
+}
+input[type=submit] {
+    width: 20em;  height: 2em;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color:#00002B;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 160%;
+
+  top: 150%;
+  left: 150%;
+ -ms-transform: translate(+80%, +80%);
+  transform: translate(+80%, +80%);
+}
+body {
+  background-image: url('simple.jpeg');
+
+
+  background-size: cover;
+  background-size: 100% 122%;
+}
+</style>
+
+<h1>TEMPERATURE AND HUMIDITY</h1>
+
+<h1> Select option</h1>
+<body style="background-color:powderblue;">
+<div>
+
+<form action="/select_all.php" id="form1" >
+
+
+  <input type="submit" value="Select all from table">
+
+</form>
+<form  
+{
+  background-color:#00002B;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 500%;
+
+  top: 150%;
+  left: 150%;
+ -ms-transform: translate(+80%, +80%);
+  transform: translate(+80%, +80%);
+} action="/Current_data.php" id="form2" >
+
+
+  <input type="submit" value="     Get current data     ">
+
+</form>
+</form>
+<form action="/Order_by_Temperature.php" id="form3" >
+
+
+  <input type="submit" value= " Get data ordered by temperature ">
+
+</form>
+<form action="/Order_by_Humidity.php" id="form4" >
+
+
+  <input type="submit" value= " Get data ordered by humidity ">
+
+</form>
+</form>
+<form action="/Get_Lowest_Temperature.php" id="form5" >
+
+
+  <input type="submit" value= " Get highest and lowest Temperature ">
+
+</form>
+<form action="/Get_Lowest_Humidity.php" id="form6" >
+
+
+  <input type="submit" value= " Get highest and lowest Humidity ">
+
+</form>
+</div>
+
+
+
+
+
+
+</body>
+</html>
